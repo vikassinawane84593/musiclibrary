@@ -1,16 +1,29 @@
-# misiclibrary
+# Music Library App (Flutter + BLoC)
 
-A new Flutter project.
+This is a Flutter application that allows users to search songs using Deezer API.
+The app is built using BLoC architecture and supports pagination.
 
-## Getting Started
+## Features
+- Search songs by artist or track name
+- Infinite scrolling (load more)
+- Song detail screen
+- Error handling
+- Clean BLoC architecture
 
-This project is a starting point for a Flutter application.
+## Architecture
+BLoC Pattern:
+UI → Bloc → ApiService → API
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Dart
+- flutter_bloc
+- REST API (Deezer)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Run
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Vikas Sonawane
