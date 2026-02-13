@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
 
-    // first load
+
     context.read<SongBloc>().add(SearchSong("eminem"));
 
     scrollController.addListener(() {
