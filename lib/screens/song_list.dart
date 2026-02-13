@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:misiclibrary/model/Song_model.dart';
+import 'package:musiclibrary/model/Song_model.dart';
+import 'package:musiclibrary/screens/detail_screen.dart';
 
-import '../screens/detail_screen.dart';
 
 class SongTile extends StatelessWidget {
   final Song song;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:misiclibrary/bloc/aong/song_block.dart';
-import 'package:misiclibrary/screens/home_screen.dart';
-import 'package:misiclibrary/services/api_service.dart';
+import 'package:musiclibrary/bloc/aong/song_block.dart';
+import 'package:musiclibrary/screens/home_screen.dart';
+import 'package:musiclibrary/services/api_service.dart';
 
 void main() {
   runApp(const MyApp());

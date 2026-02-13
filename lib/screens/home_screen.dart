@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:misiclibrary/bloc/aong/Song_state.dart';
-import 'package:misiclibrary/bloc/aong/song_block.dart';
-import 'package:misiclibrary/bloc/aong/song_event.dart';
-import 'package:misiclibrary/screens/song_list.dart';
+import 'package:musiclibrary/bloc/aong/Song_state.dart';
+import 'package:musiclibrary/bloc/aong/song_block.dart';
+import 'package:musiclibrary/bloc/aong/song_event.dart';
+import 'package:musiclibrary/screens/song_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

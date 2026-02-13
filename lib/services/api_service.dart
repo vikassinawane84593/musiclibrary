@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:misiclibrary/model/Song_model.dart';
+import 'package:musiclibrary/model/Song_model.dart';
 
 class ApiService {
   Future<List<Song>> fetchSongs({

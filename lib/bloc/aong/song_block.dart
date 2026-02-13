@@ -1,10 +1,10 @@
 
 
 import 'package:bloc/bloc.dart';
-import 'package:misiclibrary/bloc/aong/Song_state.dart';
-import 'package:misiclibrary/bloc/aong/song_event.dart';
-import 'package:misiclibrary/model/Song_model.dart';
-import 'package:misiclibrary/services/api_service.dart';
+import 'package:musiclibrary/bloc/aong/Song_state.dart';
+import 'package:musiclibrary/bloc/aong/song_event.dart';
+import 'package:musiclibrary/model/Song_model.dart';
+import 'package:musiclibrary/services/api_service.dart';
 
 class SongBloc extends Bloc<SongEvent, SongState> {
   final ApiService apiService;

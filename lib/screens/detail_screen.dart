@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:misiclibrary/model/Song_model.dart';
+import 'package:musiclibrary/model/Song_model.dart';
 
 class DetailScreen extends StatelessWidget {
   final Song song;
